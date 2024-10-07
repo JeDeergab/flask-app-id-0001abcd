@@ -4,8 +4,8 @@ from flask import Flask, jsonify, render_template
 app = Flask(
     __name__,
     # do pwd on a directory to get the file path (ex: /home/johnenerio/)
-    static_folder='/home/johnenerio/static',
-    template_folder='/home/johnenerio/templates'
+    static_folder='/home/[REDACTED]/static',
+    template_folder='/home/[REDACTED]/templates'
 )
 
 # When JavaScript is disabled it will fill-in the contents in index.html file
