@@ -1,17 +1,17 @@
 body
 {
         position: absolute;
-		height: calc(100vh);
-		width: calc(100vw);
+	height: calc(100vh);
+	width: calc(100vw);
         margin: 0;
         padding: 0;
-		box-sizing: border-box;
+	box-sizing: border-box;
         background-color: none;
 }
 
 .main_page
 {
-		position: fixed;
+	position: fixed;
         height: 100%;
         width: 100%;
         background-color: #013340;      
