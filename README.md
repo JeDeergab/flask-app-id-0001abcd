@@ -11,3 +11,4 @@
 #### 2. Fetching HTML elements from Flask using JavaScript's fetch
 #### 3. I am also using JSON for the fetching.
 #### 4. In my later project I will introduce using sha256
+#### 5. This is all for practical use only.
