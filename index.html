@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blank Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+	
+</head>
+<body>
+
+    <div class="my_contents"></div>
+    <script src="{{ url_for('static', filename='js/my_script.js') }}"></script>
+
+    <noscript class="no_js"><p>{{ noscript_content }}</p></noscript>
+
+</body>
+</html>

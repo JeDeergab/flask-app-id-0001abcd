@@ -1,0 +1,48 @@
+body
+{
+        position: absolute;
+		height: calc(100vh);
+		width: calc(100vw);
+        margin: 0;
+        padding: 0;
+		box-sizing: border-box;
+        background-color: none;
+}
+
+.main_page
+{
+		position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: #013340;      
+        box-sizing: border-box;
+        border: none; /*1px solid #ada30b;*/
+}
+
+.top_nav
+{
+	position: fixed;
+	top: 0;
+	height: 40px;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+.main_body
+{
+	position: fixed;
+	top: 40px;
+	height: calc(100vh - 40px);
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #ada30b;
+}
+
+.no_js
+{
+	position: fixed;
+	top: 0;
+	height: 40px;
+	width: 100%;
+}
