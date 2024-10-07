@@ -16,7 +16,7 @@ body
         width: 100%;
         background-color: #013340;      
         box-sizing: border-box;
-        border: none; /*1px solid #ada30b;*/
+        border: none; 
 }
 
 .top_nav
