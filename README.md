@@ -1,4 +1,4 @@
-# What I haved used is the following: 
+# What I have used is the following: 
 
 1. Ubuntu Server
 2. Python3
