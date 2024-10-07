@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function()
         }
 
 
-        //// Fetch the external content from Flask
+        // Fetch the external content from Flask
         fetch('/top_nav')
             .then(response => response.json())
             .then(data => {
@@ -20,7 +20,8 @@ document.addEventListener("DOMContentLoaded", function()
                 }
         })
         .catch(error => console.error('Error fetching external content:', error));
-		
+
+	// Fetch the external content from Flask
         fetch('/body')
             .then(response => response.json())
             .then(data => {
@@ -31,6 +32,5 @@ document.addEventListener("DOMContentLoaded", function()
                     Main_Load02.insertAdjacentHTML('beforeend', Main_Base02);
                 }
         })
-        .catch(error => console.error('Error fetching external content:', error));
-		
+        .catch(error => console.error('Error fetching external content:', error));	
 });
