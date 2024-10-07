@@ -1,3 +1,7 @@
-# I tried this on using the following but you can do however you want as long as you have Python3 or above and the OS is Debian base.
+# What I use is the followings: 
 
-## All I have used is Flask framework
+1. Ubuntu Server
+2. Python3
+3. Flask
+
+### What this does is setup a proper flask web-server for me to practice on. I have learned about fetching HTML elements from a Flask API using JSON and have JavaScript do all the fetching. 
